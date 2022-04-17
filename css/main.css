@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+}
+label{
+    font-size: 30px;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.numerator, .denominator{
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    font-size: 25px;
+}
+.item{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+}
+.fraction{
+    width: 60%;
+    height: 75%;
+    padding: 50px;
+    border: 5px solid rgb(85, 83, 83);
+    border-radius: 15px;
+    flex-direction: row;
+}
+.frac{
+    border: 1px solid rgb(123, 120, 120);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#qnt{
+    font-size: 25px;
+}
+#r{
+    margin-left: 10px;
+}
+#r input{
+    text-align: center;
+}
+#qnt, #r input{
+    color: green;
+}
+#r .line{
+    background-color: green;
+}
+#clr{
+    margin-top: 30px;
+}
