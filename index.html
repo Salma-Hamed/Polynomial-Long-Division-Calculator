@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+            <div class="row fraction justify-content-center align-items-center">
+                <div class="item">
+                    <div class="title">
+                        <label>Polynomial Long Division</label>
+                    </div>
+                </div>
+                <div class="item d-flex align-items-center justify-content-center h-100">
+                    <div id="frac" class="w-100 frac mb-5">
+                        <input id="num" class="numerator" placeholder="Numerator" type="text">
+                        <div class="line"></div>
+                        <input id="den" class="denominator" placeholder="Denominator" type="text">
+                    </div>
+                    <button id="divide" onclick="calculate()" class="btn btn-success">Divide</button>
+                    <div id="answer" class="d-flex align-items-center w-100">
+                        <div id="qnt" class="quotient"></div>
+                        <div id="r" class="remainder">
+                            <input id="rnum" class="numerator" type="text">
+                            <div id="l" class="line"></div>
+                            <input id="rden" class="denominator" type="text">
+                        </div>
+                    </div>
+                    <button id="clr" onclick="clr()" class="btn btn-dark">Clear</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
